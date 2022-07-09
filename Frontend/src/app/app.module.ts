@@ -10,6 +10,8 @@ import { LoginComponent } from './pages/login/login.component';
 import { ViewPromotionsComponent } from './pages/view-promotions/view-promotions.component';
 import { FirstFilterComponent } from './pages/first-filter/first-filter.component';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,8 @@ import { FirstFilterComponent } from './pages/first-filter/first-filter.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
