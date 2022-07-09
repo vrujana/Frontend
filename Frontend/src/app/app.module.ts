@@ -9,8 +9,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ViewPromotionsComponent } from './pages/view-promotions/view-promotions.component';
 
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,8 +20,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FontAwesomeModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
