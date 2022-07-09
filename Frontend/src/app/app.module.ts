@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ViewPromotionsComponent } from './pages/view-promotions/view-promotions.component';
+import { FirstFilterComponent } from './pages/first-filter/first-filter.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ViewPromotionsComponent } from './pages/view-promotions/view-promotions
     NavbarComponent,
     LoginComponent,
     ViewPromotionsComponent,
+    FirstFilterComponent,
   ],
   imports: [
     BrowserModule,
