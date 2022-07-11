@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ViewPromotionsComponent } from './pages/view-promotions/view-promotions.component';
 import { FirstFilterComponent } from './pages/first-filter/first-filter.component';
+import { GraphsComponent } from './pages/graphs/graphs.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FirstFilterComponent } from './pages/first-filter/first-filter.componen
     LoginComponent,
     ViewPromotionsComponent,
     FirstFilterComponent,
+    GraphsComponent,
   ],
   imports: [
     BrowserModule,
