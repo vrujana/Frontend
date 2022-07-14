@@ -1,9 +1,118 @@
-<!--Navbar-->
-
 <app-navbar></app-navbar>
 
+<!--
 <div class="container">
-<!--Filter row-->
+  <table class="table-responsive table-bordered mt-3" style="background-color: red;">
+    <tr style="background-color: blue;">
+      <th colspan="12" style="background-color: green;">
+        <div class="d-flex flex-row" style="background-color: #DCDCDC;">
+
+          <div class="container m-2 w-25" style="background-color: #c4c4c4; border-radius: 10px; height: 29px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"/>
+            </svg>
+          </div>
+      
+          <div class="input-group input-group-sm m-2 h-25">
+              <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Sucursal" aria-describedby="inputGroup-sizing-sm" style="border-radius: 10px;">
+          </div>
+          <div class="input-group input-group-sm m-2 h-25">
+              <input type="date" class="form-control" aria-label="Sizing example input" placeholder="Fecha inicio" aria-describedby="inputGroup-sizing-sm" style="border-radius: 10px;">
+          </div>
+          <div class="input-group input-group-sm m-2 h-25">
+              <input type="date" class="form-control" aria-label="Sizing example input" placeholder="Fecha fin" aria-describedby="inputGroup-sizing-sm" style="border-radius: 10px;">
+          </div>
+          <div class="input-group input-group-sm m-2 h-25">
+              <input type="text" class="form-control" aria-label="Sizing example input" placeholder="PromocionID" aria-describedby="inputGroup-sizing-sm" style="border-radius: 10px;">
+          </div>
+          <div class="input-group input-group-sm m-2 h-25">
+              <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Descripcion" aria-describedby="inputGroup-sizing-sm" style="border-radius: 10px;">
+          </div>
+          <div class="input-group input-group-sm m-2 h-25">
+              <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Tipo" aria-describedby="inputGroup-sizing-sm" style="border-radius: 10px;">
+          </div>
+        </div>
+      </th>
+    </tr>
+    <tr class="text-center" style="background-color: green;">
+      <th style="background-color: #654796;">Sucursal</th>
+      <th scope="col" style="background-color: #654796;">PromocionID</th>
+      <th scope="col" style="background-color: #DC291E;">TipoPromoId</th>
+      <th scope="col" style="background-color: #DC291E;">SegmentoID</th>
+      <th scope="col" style="background-color: #DC291E;">DscPromocion</th>
+      <th scope="col" style="background-color: #DC291E;">FchInicioPromo</th>
+      <th scope="col" style="background-color: #DC291E;">FchFinPromo</th>
+      <th scope="col" style="background-color: #DC291E;">FchUpdate</th>
+      <th scope="col" style="background-color: #DC291E;">HoraInicial</th>
+      <th scope="col" style="background-color: #DC291E;">HoraFinal</th>
+    </tr>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr>
+        <th scope="row">1</th>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr>
+        <th scope="row">1</th>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+    </tbody>
+    <tr>
+      <th colspan="12" >
+        <div class="d-flex justify-content-between" style="background-color: #DCDCDC;">
+          <div class="container h-25" style="background-color: red;">
+            <button class="btn" style="background-color: #C4C4C4; border-radius: 10px; font-size: 15px;">Exportar a Excel
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+            </svg>
+            </button>
+            <label style="font-size: 12px;">1 de 3 paginas</label>
+              <button class="btn-sm ms-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                  </svg>
+              </button>
+              <button class="btn-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+              </button>
+          </div>
+        </div>
+      </th>
+    </tr>
+  </table>
+</div>-->
+
+
+<!--Filter row
 <div class="container-fluid d-flex flex-column">
   <div class="d-flex flex-row position-absolute top-25 start-50 translate-middle" style="background-color: #DCDCDC; margin-top: 60px; width: 85%;">
 
@@ -31,7 +140,7 @@
     <div class="input-group input-group-sm m-2 h-25">
         <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Tipo" aria-describedby="inputGroup-sizing-sm" style="border-radius: 10px;">
     </div>
-  </div>
+  </div>-->
 
   <!--Table--> 
   <!--<div class="table-responsive">
@@ -204,7 +313,7 @@
           </button>
       </div>-->
 
-</div>
+
 
 
 
